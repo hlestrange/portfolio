@@ -1,0 +1,475 @@
+/*Base Styles -----------------------------------------------------*/
+
+body {
+  color: #5D5D5D;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+}
+
+html {
+  font-size: 100%;
+}
+
+body#main{
+  background: #E4FFFD;
+}
+
+h1, h3, h4, h5 {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-size: 2.5em;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+p {
+  font-size: .9em;
+}
+
+.name {
+  font-size: 5em;
+  color: #7ADDD7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 0;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #5D5D5D;
+}
+
+a {
+  color: #5D5D5D;
+}
+
+/*Main Header -----------------------------------------------------*/
+
+.header {
+  height: 770px;
+  position: relative;
+}
+
+.pattern-bkgd {
+  background:
+  linear-gradient(135deg, #535455 25%, transparent 25%) -50px 0,
+  linear-gradient(225deg, #535455 25%, transparent 25%) -50px 0,
+  linear-gradient(315deg, #535455 25%, transparent 25%),
+  linear-gradient(45deg, #535455 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: #58595A;
+}
+
+.header-content {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin-top: -70px;
+}
+
+.sub-h1 {
+  font-size: 1.85em;
+  color: #dedede;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.menu {
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  bottom: 4%;
+  width: 100%;
+  color: #dedede;
+  font-size: 1.15em;
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+}
+
+.menu li a {
+  color: #7ADDD7;
+}
+
+.menu li a:hover {
+  color: #dedede;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+
+/*Subheader -----------------------------------------------------*/
+
+.sub-header {
+  background: #7ADDD7;
+  text-align: center;
+  padding: 70px 0;
+}
+
+.sub-header-title {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  font-size: 3em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 60px 20px 0 20px;
+}
+
+.sub-header p {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2%;
+}
+
+/*Projects -----------------------------------------------------*/
+
+.project-text {
+  float: left;
+  margin-left: 20px;
+  width: 25%;
+}
+
+.color-strip {
+  background: #7ADDD7;
+  height: 7px;
+  width: 75px;
+  margin: 15px 0;
+}
+
+.project {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #dedede;
+}
+
+.project-img {
+  width: 70%;
+  float: left;
+}
+
+.btn-primary {
+  background: #7ADDD7;
+  box-shadow: 0px 3px 1px 0px #7CC9C4;
+  border-radius: 4px;
+  border: none;
+  color: #5D5D5D;
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+.btn-primary:hover {
+  background: #30B5AD;
+}
+
+/*Footer -----------------------------------------------------*/
+
+.progress-bars {
+  width: 60%;
+  float: left;
+  margin-right: 5%;
+}
+
+.progress {
+  height: 3.5%;
+  border-radius: .25em;
+}
+
+.progress-bar {
+  font-size: 1em;
+}
+
+.progress-bar-info {
+  background: #7ADDD7;
+  background-image: linear-gradient(45deg,rgba(255,255,255,.25) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.25) 50%,rgba(255,255,255,.25) 75%,transparent 75%,transparent);
+  background-size: 40px 40px;
+  color: #444444;
+  text-align: left;
+  padding-left: 2%;
+  padding-top: 1%;
+  text-transform: uppercase;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  /*font-size: 1em;*/
+  font-weight: 700;
+}
+
+.avatar {
+  float: left;
+  border: solid 9px #7ADDD7;
+  border-radius: 90px;
+}
+
+.about {
+  width: 70%;
+  margin-left: 30px;
+  float: left;
+}
+
+.tools {
+  float: left;
+  width: 30%;
+}
+
+.tools .fa {
+  padding-right: 7px;
+}
+
+footer {
+  background: #444444;
+  color: white;
+  overflow: hidden;
+  padding: 8% 0;
+  margin-top: 4%;
+}
+
+.footer-content {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 70%;
+}
+
+footer h3 {
+  margin-bottom: 20px;
+}
+
+footer li {
+  margin-top: 20px;
+}
+
+.tool-icon {
+  font-size: 1.75em;
+  color: #7ADDD7;
+}
+
+/*Contact -----------------------------------------------------*/
+
+.contact {
+  padding: 40px 20px;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.contact a {
+  color: white;
+}
+
+.contact a:hover {
+  color: #7ADDD7;
+}
+
+.contact-content {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.icon-combo {
+  display: inline-block;
+  margin-top: 20px;
+  /*color: #7ADDD7;*/
+  width: 175px;
+}
+
+.contact .fa {
+  margin-bottom: 10px;
+  border: solid 1px white;
+  border-radius: 46px;
+  width: 70px;
+  height: 70px;
+}
+
+.contact .fa:hover {
+  background: white;
+}
+
+.icon-email {
+  padding-top: 10%;
+}
+
+.icon-twitter {
+  padding-top: 9%;
+  font-size: 2.3em;
+}
+
+.icon-phone {
+  padding-top: 6%;
+}
+
+/*Navbar -----------------------------------------------------*/
+
+.navbar-brand {
+  font-weight: 700;
+  color: #7ADDD7;
+  letter-spacing: 2px;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.custom-nav {
+  font-family: 'Arvo', 'Rockwell', Helvetica, sans-serif;
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.30);
+}
+
+.custom-nav li a {
+  color: #7ADDD7;
+}
+
+.custom-nav li a:hover {
+  color: white;
+  background: none;
+}
+
+/*Case Study --------------------------------------------------*/
+.case-study-section {
+  overflow: hidden;
+  margin: 2% 6%;
+  padding-bottom: 3%;
+  border-bottom: solid 1px #dedede;
+}
+
+.case-study-text {
+  padding-top: 2%;
+}
+
+/*Info Band --------------------------------------------------*/
+.info-band {
+  background: #CEFBF8;
+  text-align: center;
+  font-weight: 700;
+  font-size: .85em;
+  color: #60C4BE;
+  padding: 25px 0;
+}
+
+.info-band li {
+  display: inline-block;
+}
+
+/*Tiles --------------------------------------------------*/
+
+.tile {
+  background: white;
+  border-radius: 10px;
+  border: 1px solid #7ADDD7;
+  overflow: hidden;
+  margin: 90px 0 40px 0;
+}
+
+.tile:hover {
+  box-shadow: 0px 2px 12px 0px rgba(141,140,140,0.43);
+}
+
+.tile-img {
+  border-bottom: 1px solid #dedede;
+  border-radius: 10px 10px 0 0;
+  width: 100%;
+}
+
+.tile-text {
+  margin: 8%;
+}
+
+.tile-button {
+  background: #C6F3F0;
+  color: #2F9891;
+  font-weight: 700;
+  display: block;
+  border-top: 1px solid #7ADDD7;
+  padding: 14px 0;
+  text-align: center;
+}
+
+.tile-button:hover {
+  color: #19706B;
+  background: #7ADDD7;
+}
+
+/*Media Queries --------------------------------------------------*/
+@media (max-width: 525px), (max-device-width: 525px) {
+    .col-xxs-12 {
+      width: 100%;
+  }
+  .icon-combo .icon-text {
+    display: none;
+  }
+  .sub-header-title {
+    font-size: 2em;
+  }
+}
+
+@media (max-width: 1100px), (max-device-width: 1100px)  {
+  .footer-content {
+    width: 90%;
+  }
+  .project-img, .project-text {
+    width: 100%;
+  }
+  .color-strip {
+    display: none;
+  }
+}
+
+@media (max-width: 800px), (max-device-width: 800px) {
+  .footer-content {
+    width: 90%;
+  }
+  .progress-bars {
+    width: 100%;
+  }
+  .about p {
+    width: 100%;
+  }
+  .about {
+    width: 90%
+  }
+  .tools {
+    width: 100%;
+  }
+  .name {
+    font-size: 2.85em;
+  }
+  .sub-h1 {
+    font-size: 1.5em;
+  }
+  .sub-header p {
+    width: 90%;
+  }
+  .navbar-right {
+    float: right;
+  }
+}
+
+/*For Phone================*/
+
+@media (max-device-width: 400px) {
+  .name {
+    font-size: 4.85em;
+  }
+  .progress-bar {
+    font-size: 2em;
+  }
+  .progress-bar-info {
+    padding-top: 2%;
+}
